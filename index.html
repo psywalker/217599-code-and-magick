@@ -9,9 +9,6 @@
 <body>
 
 <header>
-
-  <div class="myDiv"></div>
-
   <div class="header-clouds"></div>
   <div class="header-fence"></div>
   <div class="header-tree"></div>
@@ -34,7 +31,27 @@
   <p><a href="http://htmlacademy.ru" class="footer-link"><img src="img/htmlacademy-logo.png" alt="HTML Academy"
                                                               width="130">Сделано в HTML Academy</a>в 2017 году</p>
 </footer>
+<script type="application/javascript">
+  var fireballSize = 22;
+  var getFireballSpeed = function(left){
+    if(left){
+      return 5;
+    }else {
+      return 2;
+    }
+  }
+  var wizardSpeed = 70;
+  var wizardWidth = 3;
+  var getWizardHeight = function(wizardWidth){
+    return 1.337 * wizardWidth;
+  }
+  var getWizardX = function(width){
+    alert(width)
+  }
+  var getWizardY = function(height){
 
+  }
+</script>
 <script src="js/game.js" type="application/javascript"></script>
 
 </body>
